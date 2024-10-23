@@ -1,0 +1,167 @@
+[
+{
+    "salesreturn_id": 2000,
+    "salesreturn_number": "RMA-00001",
+    "date": "2015-05-28",
+    "reason": "Damage Item",
+    "custom_fields": [
+        {
+            "customfield_id": "46000000012845",
+            "value": "Normal"
+        }
+    ],
+    "line_items": [
+        {
+            "line_item_id": 4815000000044897,
+            "item_id": 4815000000044100,
+            "name": "Laptop-white/15inch/dell",
+            "description": "Just a sample description.",
+            "unit": "qty",
+            "rate": 122,
+            "salesorder_item_id": 4815000000044892,
+            "quantity": 3,
+            "non_receive_quantity": 2,
+            "warehouse_id": 130426000000664020,
+            "warehouse_name": "Lulu Hyper Market"
+        }
+    ],
+    "salesreturn_status": "approved",
+    "salesorder_id": 4815000000044936,
+    "salesorder_number": "SO-00032"
+},
+
+
+
+{
+    "salesreturn_id": 2001,
+    "salesreturn_number": "RMA-00001",
+    "date": "2015-05-28",
+    "reason": "Damage Item",
+    "custom_fields": [
+        {
+            "customfield_id": "46000000012845",
+            "value": "Normal"
+        }
+    ],
+    "line_items": [
+        {
+            "line_item_id": 4815000000044897,
+            "item_id": 4815000000044100,
+            "name": "Iphone 16 pro max",
+            "description": "Just a sample description.",
+            "unit": "qty",
+            "rate": 122,
+            "salesorder_item_id": 4815000000044892,
+            "quantity": 3,
+            "non_receive_quantity": 2,
+            "warehouse_id": 130426000000664020,
+            "warehouse_name": "Oxygen"
+        }
+    ],
+    "salesreturn_status": "approved",
+    "salesorder_id": 4815000000044936,
+    "salesorder_number": "SO-00032"
+},
+
+
+
+{
+    "salesreturn_id": 2002,
+    "salesreturn_number": "RMA-00001",
+    "date": "2015-05-28",
+    "reason": "Item is missing",
+    "custom_fields": [
+        {
+            "customfield_id": "46000000012845",
+            "value": "Normal"
+        }
+    ],
+    "line_items": [
+        {
+            "line_item_id": 4815000000044897,
+            "item_id": 4815000000044100,
+            "name": "Vegitable",
+            "description": "Just a sample description.",
+            "unit": "qty",
+            "rate": 122,
+            "salesorder_item_id": 4815000000044892,
+            "quantity": 3,
+            "non_receive_quantity": 2,
+            "warehouse_id": 130426000000664020,
+            "warehouse_name": "Jio Mart"
+        }
+    ],
+    "salesreturn_status": "approved",
+    "salesorder_id": 4815000000044936,
+    "salesorder_number": "SO-00032"
+},
+
+
+{
+    "salesreturn_id": 2004,
+    "salesreturn_number": "RMA-00001",
+    "date": "2015-05-28",
+    "reason": "Less Quantity",
+    "custom_fields": [
+        {
+            "customfield_id": "46000000012845",
+            "value": "Normal"
+        }
+    ],
+    "line_items": [
+        {
+            "line_item_id": 4815000000044897,
+            "item_id": 4815000000044100,
+            "name": "Chicken Biriyani",
+            "description": "Just a sample description.",
+            "unit": "qty",
+            "rate": 122,
+            "salesorder_item_id": 4815000000044892,
+            "quantity": 3,
+            "non_receive_quantity": 2,
+            "warehouse_id": 130426000000664020,
+            "warehouse_name": "Zomato"
+        }
+    ],
+    "salesreturn_status": "approved",
+    "salesorder_id": 4815000000044936,
+    "salesorder_number": "SO-00032"
+},
+
+
+
+
+{
+    "salesreturn_id": 2001,
+    "salesreturn_number": "RMA-00001",
+    "date": "2015-05-28",
+    "reason": "Recived Wrong item",
+    "custom_fields": [
+        {
+            "customfield_id": "46000000012845",
+            "value": "Normal"
+        }
+    ],
+    "line_items": [
+        {
+            "line_item_id": 4815000000044897,
+            "item_id": 4815000000044100,
+            "name": "Beef fry",
+            "description": "Just a sample description.",
+            "unit": "qty",
+            "rate": 122,
+            "salesorder_item_id": 4815000000044892,
+            "quantity": 3,
+            "non_receive_quantity": 2,
+            "warehouse_id": 130426000000664020,
+            "warehouse_name": "Swiggy"
+        }
+    ],
+    "salesreturn_status": "approved",
+    "salesorder_id": 4815000000044936,
+    "salesorder_number": "SO-00032"
+}
+
+
+
+]

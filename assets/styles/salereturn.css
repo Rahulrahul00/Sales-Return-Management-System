@@ -1,0 +1,86 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+/* Popup modal styles */
+.popup {
+    display: none; /* Initially hidden */
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-color: rgb(255, 255, 255);
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    z-index: 1000;
+    width: 800px;
+    text-align: start;
+    
+  }
+  
+  .open-popup {
+    display: block; /* Show the popup */
+    animation: fadeIn 0.3s ease-in-out;
+  }
+  
+  @keyframes fadeIn {
+    from {
+      opacity: 0;
+      transform: translate(-50%, -60%);
+    }
+    to {
+      opacity: 1;
+      transform: translate(-50%, -50%);
+    }
+  }
+  
+  /* Blur effect for the background */
+  .blurred {
+    filter: blur(5px);
+    transition: filter 0.3s ease;
+  }
+  
+  /* Close button styles */
+  .closeBtn {
+    margin-top: 15px;
+    padding: 8px 15px;
+    background-color: #d9534f;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 14px;
+    
+    
+  }
+  .close{
+    text-align: end;
+  }
+  .returnDiv{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    column-gap: 1.5rem;
+    align-items: center;
+    justify-content: center;
+  }
+  .returnDiv input{
+    width: 100%;
+
+  }
+  
+  .closeBtn:hover {
+    background-color: #c9302c;
+  }
+  .returnDiv h5{
+    font-size: 1.2rem;
+    padding-top: 0.5rem;
+    color: rgb(48, 49, 48);
+  }
+  
+  /* Main content container (to apply blur when popup is open) */
+  #mainContent {
+    transition: filter 0.3s ease;
+  }
+  
